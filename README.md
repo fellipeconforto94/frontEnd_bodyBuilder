@@ -1,2 +1,7 @@
 # frontEnd_bodyBuilder
-Em andamento
+
+Projeto de estudo de HTML e CSS
+
+Seguindo o prototipo do figma abaixo:
+
+![alt text](image.png)
