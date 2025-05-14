@@ -53,8 +53,6 @@ h3 {
 /* Pra todas as imagens */
 img {
     display: block;
-    max-width: 100%;
-    /* Imagens responsivas */
 }
 
 .header {
@@ -145,5 +143,42 @@ img {
 }
 
 .conteudo-banner .btn:hover {
-    background-color: #991a2a;
+    background-color: var(--brandSecondary);
+}
+
+.nossa-academia {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.parte-do-time {
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.parte-do-time .container {
+    padding: 37px 0;
+    position: relative;
+}
+
+.parte-do-time h2 {
+    color: var(--brandSecondary);
+}
+
+.parte-do-time p {
+    color: #666666;
+}
+
+.texto-parte-do-time {
+    width: 850px;
+}
+
+.imagem-parte-do-time {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
